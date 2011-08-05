@@ -1,4 +1,9 @@
 Cab::Application.routes.draw do
+  match '/contact', :to => 'pages#contact'
+  match '/about',   :to => 'pages#about'
+  match '/services',    :to => 'pages#services'
+  root :to => 'pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

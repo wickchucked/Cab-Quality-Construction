@@ -1,0 +1,152 @@
+/* 
+Title:      Master styles for screen media
+Author:     dan@simplebits.com
+*/
+
+body {
+    font-family:"gesta-1", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, sans-serif;
+    color: #51463d;
+    font-size: 62.5%;
+    background: gray;
+    }
+    
+/* links */
+
+a:link, a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+	color:rgba(55,146,179,.8);
+    }
+
+/* page structure 
+--------------------------------------------- */
+#header {
+    max-width: 1000px;
+	width: 80%;
+    margin: 0 auto;
+	background-color:#000;
+	position:relative;
+	overflow:hidden;
+	}
+#header_bottom_logo {
+	overflow:hidden;
+	max-width: 1000px;
+	margin:0 auto;
+	padding:15px 0;
+	background: #000 url(../cablogosmall.gif) repeat-x left;
+}
+	
+#logo h1{
+	float:left;
+	background: #000 url(../cablogo.png) no-repeat left;
+}
+
+#logo p {
+	position:absolute;
+	left:60%;
+	top:50px;
+	color:#fff;
+	font-size:2em;
+	font-weight:bold;
+	letter-spacing:2px;
+	line-height:1.2;
+	text-transform:uppercase;
+}
+#wrap {
+    max-width: 1000px;
+	width: 80%;
+    margin:0 auto;
+    padding: 40px 0 0 0;
+    font-size: 1.3em;
+	background-color:#fff;
+	overflow:hidden;
+    }
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
+    font-size: 1em;
+    color: #9c836e;
+}
+/* navigation */
+    
+#nav {
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    font-size: 1.3em;
+	overflow:hidden;
+    }
+#nav ul {
+	margin:0 auto;
+}
+#nav ul li {
+	float: left;
+	width: 25%;
+	margin: 0 0 0 0;
+	}
+#nav ul li.last {
+	margin-right: 0;
+	}
+#nav ul li a {
+	display: block;
+	float: left; 
+	width: 100%;
+	font-size: 1.1em;
+	line-height: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #f3f2e8; 
+	border:1px solid #000;
+	background-color:#4C4C4C;
+	}
+
+#nav ul li a strong {
+	display: block;
+	padding: .8em 15px;
+	}
+#nav ul li a em {
+	display: block;
+	font-size: .9em;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: none;
+	letter-spacing: 0;
+	color: #b2a18f;
+	}
+/* Main Content Styles start here */	
+.main {
+	margin:0 5% 0 5%;
+	width:90%;
+	padding-left:10px;
+	padding-bottom:3%;
+    }
+.main h2 {
+	font: normal 1.5em Georgia, serif;
+}
+	
+/* use the best possible ampersand */
+
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.2em;
+	color: #766557;
+	}
+/* Photo Content */
+#picture_container {
+margin:5px 5px 5px 0;
+}
+ul.slides {
+margin:0 auto;
+}
+ul.slides li {
+float:left;
+padding-right:2%;
+display:block;
+}
