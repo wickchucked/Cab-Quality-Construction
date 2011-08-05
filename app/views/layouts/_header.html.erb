@@ -1,0 +1,38 @@
+<header class="group box-shadow">
+  <div id="logo" class="group"> 
+  <!-- TD move this to helper -->
+  <% logo = image_tag("cablogo.png", :alt => "Cab Quality Construction") %>
+     <h1>
+        <%= link_to logo, root_path %>  
+     </hi>
+
+  </div>
+
+  <div id="nav">
+    <ul class="group">
+        <li>
+          <%= link_to root_path do %>
+            <strong>Home <em> Our Work</em></strong>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to about_path do %>
+            <strong>About Us <em> History</em></strong>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to services_path do %>
+            <strong>Services <em> What we do</em></strong>
+          <% end %>
+        </li>
+        <li>
+          <%= link_to contact_path do %>
+            <strong>Free Estimates <em> Contact Us</em></strong>
+          <% end %>
+        </li>
+    </ul>
+  </div>
+  <div id="header_bottom_logo">
+    <h1>&nbsp;</h1>
+  </div>
+</header>  

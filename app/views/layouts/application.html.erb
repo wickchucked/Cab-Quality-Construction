@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cab Quality Construction | <%= @title%></title>
+  <title><%= title %></title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
+<body id="cabQualityConstruction">
+<%= render 'layouts/header' %>
+<div id="wrap" class="box-shadow">
 <%= yield %>
 
+<!--  <%= render 'layouts/footer' %> -->
+</div><!-- ending wrap div -->
 </body>
 </html>
