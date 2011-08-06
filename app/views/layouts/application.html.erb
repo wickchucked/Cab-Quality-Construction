@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <title><%= title %></title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
@@ -9,9 +10,10 @@
 <body id="cabQualityConstruction">
 <%= render 'layouts/header' %>
 <div id="wrap" class="box-shadow">
-<%= yield %>
-
-<!--  <%= render 'layouts/footer' %> -->
+  <div class="main">
+  <%= yield %>
+  </div><!-- ending main div -->
 </div><!-- ending wrap div -->
+<%= render 'layouts/footer' %>
 </body>
 </html>
