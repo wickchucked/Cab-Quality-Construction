@@ -34,7 +34,7 @@ header {
 	max-width: 1000px;
 	margin:0 auto;
 	padding:15px 0;
-	background: #000 url(/assets/cablogosmall.gif) repeat-x left;
+	background: #000 url('cablogosmall.gif') repeat-x left;
 }
 	
 #logo h1{
